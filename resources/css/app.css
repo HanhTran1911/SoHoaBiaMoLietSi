@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* container 1024px */
+.ctn-1024{
+   @apply max-w-[1350px] mx-[15px]
+}
+/* item menu */
+.item-menu{
+    @apply lg:pl-3 pr-3 text-[14px] text-white decoration-0
+}
+
+/* menu on click icon */
+.icon_topMenu{
+    @apply absolute top-[34px] left-[-15px] flex flex-col bg-blue-600 pl-3 py-4 leading-[26px]
+}
+/* style input */
+.input_style{
+    @apply border-solid border focus:outline-none  border-gray-500  h-[35px] pl-2 pt-1 pb-1
+}
+/* border name que quan */
+.border_name_form{
+  @apply  border-b border-dashed  border-gray-500 pb-1 mb-4 font-semibold
+}
+/* border table */
+.border_table{
+    @apply border border-gray-300 lg:px-4 lg:py-2 text-center lg:text-[16px] text-[13px]
+}
+/* text item table */
+.text_item{
+    @apply text-center text-[14px] text-gray-500
+}
+/* border table sơ đồ */
+.border_table_diagram{
+    @apply w-[40px] h-[60px]  border-4 text-center
+}
+/* background item table */
+.bg_item_tb{
+   @apply text-center bg-red-500
+}
+/* background cột chỉ hàng mộ  */
+.bg_col{
+    @apply bg-blue-600 text-center font-semibold
+}
+/* border cho mộ tìm được */
+.border_item_chose{
+    @apply  border-4 border-gray-800 m-0
+}
+/* style number */
+.style_number{
+    @apply mb-0 text-white font-semibold
+}
